@@ -17,7 +17,7 @@ se crea un mock para
     npm start
     ```
 4. Ahora puedes acceder a los endpoints del API descritos en la 
-[documentación](https://app.swaggerhub.com/apis/ssinuco/BurgerQueenAPI/2.0.0) 
+[documentación](https://app.swaggerhub.com/apis/ssiqnuco/BurgerQueenAPI/2.0.0) 
 usando como URL base [http://localhost:8080/](http://localhost:8080/).
 
     Tal como indica la documentación, los endpoints están protegidos 
