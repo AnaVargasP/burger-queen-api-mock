@@ -8,7 +8,7 @@ content-type: application/json
 
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTc3MTM1NCwiZXhwIjoxNjkxNzc0OTU0LCJzdWIiOiIyIn0.0D6_mf3_DmmBkusgeeSgnqbDWpnyAG70raURDHXGUIk
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTgwMDIxMCwiZXhwIjoxNjkxODAzODEwLCJzdWIiOiIyIn0.Yn-GSdkOW-xUuVC0W2FEApZGE4Pl9XcOY4-O_BEbmwU
 
 
 GET http://localhost:8080/products HTTP/1.1
@@ -17,7 +17,7 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTcyMjI5MiwiZXhwIjoxNjkxNzI1ODkyLCJzdWIiOiIyIn0.Wx_5boIgPtCjtcPo5SfbLzluDKr5AP_fjkL52t-cpoM
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTc3NzM0MywiZXhwIjoxNjkxNzgwOTQzLCJzdWIiOiIyIn0.AYUWUDLvaMadOT0zL-xg1_OLilxPOLFzVNaSB3PKK6M
 
 PATCH http://localhost:8080/orders/2 HTTP/1.1
 content-type: application/json
