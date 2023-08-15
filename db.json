@@ -102,6 +102,12 @@
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 2
+    },
+    {
+      "email": "lola@gmail.com",
+      "password": "$2a$10$AZZI1vuDAOE39n8TW1WxVeaVxGTPHBWVirzC5eGV/0cz085y88CuG",
+      "role": "waiter",
+      "id": 3
     }
   ]
 }

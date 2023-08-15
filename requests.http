@@ -2,13 +2,21 @@ POST http://localhost:8080/login HTTP/1.1
 content-type: application/json
 
 {
-    "email": "grace.hopper@systers.xyz",
-    "password": "123456"
+    "email": "lola@gmail.com",
+    "password": "12345"
 }
 
-GET http://localhost:8080/users HTTP/1.1
+POST http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTgwMDIxMCwiZXhwIjoxNjkxODAzODEwLCJzdWIiOiIyIn0.Yn-GSdkOW-xUuVC0W2FEApZGE4Pl9XcOY4-O_BEbmwU
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MjExOTYyNCwiZXhwIjoxNjkyMTIzMjI0LCJzdWIiOiIyIn0.TBqF2GGl8Vtnx7AQfknSnMOIFomLHoTR5ONxzgg7v2s
+
+{
+    "email": "lola@gmail.com",
+    "password": "12345",
+    "role": "waiter"
+}
+
+
 
 
 GET http://localhost:8080/products HTTP/1.1
