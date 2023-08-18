@@ -8,20 +8,30 @@ content-type: application/json
 
 POST http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MjExOTYyNCwiZXhwIjoxNjkyMTIzMjI0LCJzdWIiOiIyIn0.TBqF2GGl8Vtnx7AQfknSnMOIFomLHoTR5ONxzgg7v2s
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxvbGFAZ21haWwuY29tIiwiaWF0IjoxNjkyMzY0NDIzLCJleHAiOjE2OTIzNjgwMjMsInN1YiI6IjMifQ.mob9Wkzw2jgYOW5xY7JcVe7NikJDcVjba9pdAtiYB50
 
 {
-    "email": "lola@gmail.com",
+    "email": "cheff@gmail.com",
     "password": "12345",
-    "role": "waiter"
+    "role": "cheff"
 }
 
 
 
 
-GET http://localhost:8080/products HTTP/1.1
+POST   http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MTcyMjI5MiwiZXhwIjoxNjkxNzI1ODkyLCJzdWIiOiIyIn0.Wx_5boIgPtCjtcPo5SfbLzluDKr5AP_fjkL52t-cpoM
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxvbGFAZ21haWwuY29tIiwiaWF0IjoxNjkyMzY1NzgzLCJleHAiOjE2OTIzNjkzODMsInN1YiI6IjMifQ.BYJtCX3enmTjkGh7k_LmSlyj3tQe5oXvBtj7Wadijm8
+
+ {
+      "id": 13,
+      "name": "Jugo de frutas",
+      "price": 7,
+      "image": "https://png.pngtree.com/element_our/20190604/ourmid/pngtree-summer-juice-purple-cartoon-image_1482624.jpg",
+      "type": "Desayuno",
+      "dateEntry": "2023-08-03 09:40:59"
+}
+
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
