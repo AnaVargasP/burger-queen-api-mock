@@ -174,25 +174,25 @@
     {
       "email": "anita.borg@systers.xyz",
       "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "role": "admin",
+      "role": "Admin",
       "id": 1
     },
     {
       "email": "grace.hopper@systers.xyz",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "role": "admin",
+      "role": "Admin",
       "id": 2
     },
     {
       "email": "lola@gmail.com",
       "password": "$2a$10$AZZI1vuDAOE39n8TW1WxVeaVxGTPHBWVirzC5eGV/0cz085y88CuG",
-      "role": "waiter",
+      "role": "Waiter",
       "id": 3
     },
     {
       "email": "cheff@gmail.com",
       "password": "$2a$10$MiJ9Ph6yjpF/hH586CccLuirK1ttpOap8kmi9eQcMNDg40agHslbW",
-      "role": "cheff",
+      "role": "Chef",
       "id": 4
     }
   ]
