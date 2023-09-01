@@ -6,6 +6,8 @@ content-type: application/json
     "password": "12345"
 }
 
+
+
 POST http://localhost:8080/users HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxvbGFAZ21haWwuY29tIiwiaWF0IjoxNjkyMzY0NDIzLCJleHAiOjE2OTIzNjgwMjMsInN1YiI6IjMifQ.mob9Wkzw2jgYOW5xY7JcVe7NikJDcVjba9pdAtiYB50
@@ -15,6 +17,11 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxvbGFAZ
     "password": "12345",
     "role": "cheff"
 }
+
+DELETE http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxvbGFAZ21haWwuY29tIiwiaWF0IjoxNjkzNTEyNTI5LCJleHAiOjE2OTM1MTYxMjksInN1YiI6IjMifQ.LSm4JZoHDqMGNKEYem3cxLoY1Vj6TEVAem0luY3_xgg
+
 
 
 
